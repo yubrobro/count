@@ -5,6 +5,6 @@ import "fmt"
 var sum int32
 
 func Print(){
-    sum++
+    sum+=2
     fmt.Println("sum:", sum)
 }
